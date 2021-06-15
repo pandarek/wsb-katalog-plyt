@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-offset-md-3 col-md-6">
+    <h2>Dodaj</h2>
+    <form [formGroup]="personForm">
+        <div class="form-group">
+            <label>Artysta:</label>
+          <input formControlName="artist" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Tytył płyty:</label>
+          <input formControlName="title" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Rok wydania:</label>
+          <input formControlName="year" class="form-control">
+        </div>
+        <div>
+          <!-- <span>LastName: <input formControlName="lastName"></span> -->
+        </div>
+      </form>
+      
+      <button (click)="saveForm()" class="btn btn-primary">Zapisz</button>
+      <a routerLink="/home" class="btn btn-info">Anuluj</a>
+    </div>
+  </div>

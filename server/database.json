@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "artist": "Nirvana",
+      "title": "Nevermind",
+      "year": "2021",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "artist": "Metallica",
+      "title": "Black album",
+      "year": "2020",
+      "name": "sqqwqw"
+    },
+    {
+      "artist": "",
+      "title": "",
+      "year": "",
+      "id": 4
+    }
+  ]
+}
